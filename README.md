@@ -1,114 +1,173 @@
-# 📊 Planilha de Orçamentação para Obras Privadas
+# 📊 Planilha Profissional de Orçamentação para Obras Privadas
 
-Este projeto é uma planilha desenvolvida para construtoras que atuam com **obras privadas**, com foco em **orçamentação técnica, organizada e profissional**.
+Este repositório apresenta um projeto desenvolvido para uma construtora focada em **obras privadas**, com o objetivo de estruturar, automatizar e profissionalizar o processo de orçamentação.
 
-Ela permite montar orçamentos a partir de quantitativos por serviço, utilizando composições de preços previamente cadastradas, gerando automaticamente relatórios prontos para apresentação ao cliente.
+A planilha integra quantitativos, composições de preços, análises financeiras e relatórios executivos em um único modelo.
 
----
-
-## 📌 Funcionalidades Principais
-
-### ✅ 1. Lançamento de Quantitativos
-O usuário informa o quantitativo de cada serviço executado na obra.
-
-![Lançamento de Quantitativos](images/quantitativos.png)
+Este material faz parte do meu portfólio profissional.
 
 ---
 
-### ✅ 2. Composição de Preços
-Seleção de insumos, mão de obra e serviços a partir de uma base cadastrada.
+## 🎯 Objetivo do Projeto
 
-Possibilidade de:
-- Editar preços
-- Ajustar índices
-- Atualizar custos
-- Simular cenários
+O projeto foi criado para:
 
-![Composição de Preços](images/composicao.png)
+- Reduzir erros manuais em orçamentos
+- Padronizar a formação de preços
+- Aumentar a confiabilidade dos custos
+- Facilitar a tomada de decisão
+- Gerar relatórios prontos para clientes
 
----
-
-### ✅ 3. Cálculo Automático de Custos
-A planilha calcula automaticamente:
-- Custo unitário
-- Custo total
-- Impacto dos índices
-- Margens
-
-![Cálculo de Custos](images/custos.png)
+Ele atende desde o levantamento técnico até a apresentação comercial.
 
 ---
 
-### ✅ 4. Folha de Orçamento para Cliente
-Geração automática de uma folha de orçamento organizada, contendo:
+## 🧩 Escopo e Funcionalidades
+
+### 📌 Estruturação dos Quantitativos
+
+Organização dos serviços executados e seus respectivos volumes.
+
+![Quantitativos](images/quantitativos.png)
+
+---
+
+### 📌 Sistema de Composição de Preços
+
+Base estruturada de insumos, mão de obra e serviços, com possibilidade de:
+
+- Atualização de preços
+- Ajuste de índices
+- Simulações de cenário
+
+![Composição](images/composicao.png)
+
+---
+
+### 📌 Consolidação de Custos
+
+Cálculo automático de:
+
+- Custos unitários
+- Custos totais
+- Impactos financeiros
+- Margens estimadas
+
+![Custos](images/custos.png)
+
+---
+
+### 📌 Relatório de Orçamento
+
+Geração de folha organizada para apresentação ao cliente, contendo:
 
 - Serviços
 - Quantitativos
-- Custo unitário
-- Valor total
-- Resumo geral
+- Valores
+- Resumo financeiro
 
-Pronta para envio ao cliente.
-
-![Folha de Orçamento](images/orcamento.png)
+![Orçamento](images/orcamento.png)
 
 ---
 
-### ✅ 5. Cálculo de Nota Fiscal
-Cálculo automático de impostos e valores de nota fiscal conforme parâmetros configurados.
+### 📌 Análises Financeiras
 
-![Cálculo de Nota Fiscal](images/nf.png)
+Inclui:
 
----
+- Cálculo de nota fiscal
+- Curva ABC de insumos e serviços
+- Análises de impacto de custo
 
-### ✅ 6. Curva ABC de Insumos e Serviços
-Análise de custo para identificar os itens que mais impactam o orçamento.
-
-Permite:
-- Melhor tomada de decisão
-- Foco em negociação
-- Redução de riscos
-
-![Curva ABC](images/abc.png)
+![ABC](images/abc.png)
 
 ---
 
-## 🛠️ Estrutura da Planilha
+## 🏗️ Arquitetura da Solução
 
-A planilha é composta pelas seguintes abas principais:
+A planilha foi estruturada com foco em:
 
-| Aba | Descrição |
-|-----|-----------|
-| Quantitativos | Lançamento dos serviços da obra |
-| Composições | Cadastro e edição das composições |
-| Insumos | Base de materiais e mão de obra |
-| Custos | Consolidação dos valores |
-| Orçamento | Relatório final para cliente |
-| NF | Cálculo de impostos |
-| ABC | Análise de impacto financeiro |
+- Separação entre dados, cálculos e relatórios
+- Automatização via fórmulas avançadas
+- Redução de dependência manual
+- Escalabilidade para novos projetos
 
----
+Principais módulos:
 
-## 🚀 Como Utilizar
-
-### 1️⃣ Baixar a Planilha
-Faça o download do arquivo disponível neste repositório.
-
-### 2️⃣ Preencher os Quantitativos
-Acesse a aba **Quantitativos** e informe os serviços e quantidades.
-
-### 3️⃣ Revisar Composições
-Na aba **Composição**, revise preços e índices.
-
-### 4️⃣ Conferir Custos
-Verifique os valores consolidados na aba **Custos**.
-
-### 5️⃣ Gerar Orçamento
-Utilize a aba **Orçamento** para exportar ou apresentar ao cliente.
+| Módulo | Finalidade |
+|--------|------------|
+| Quantitativos | Base técnica do orçamento |
+| Composições | Formação de preços |
+| Custos | Consolidação financeira |
+| Orçamento | Relatório executivo |
+| Fiscal | Impostos e NF |
+| ABC | Análise estratégica |
 
 ---
 
-## 📁 Organização das Imagens
+## 📁 Arquivo Disponível
 
-Para que as imagens funcionem corretamente no README, utilize a seguinte estrutura:
+O arquivo disponibilizado neste repositório contém:
 
+- Estrutura completa do modelo
+- Dados fictícios ou reduzidos
+- Proteções aplicadas
+- Versão demonstrativa
+
+Seu objetivo é demonstrar a lógica, arquitetura e capacidade técnica do projeto.
+
+---
+
+## 💡 Competências Demonstradas
+
+Este projeto evidencia habilidades em:
+
+✔ Modelagem financeira  
+✔ Orçamentação de obras  
+✔ Organização de dados  
+✔ Automação em Excel  
+✔ Análise de custos  
+✔ Visão de negócio  
+✔ Padronização de processos  
+
+---
+
+## 👨‍💼 Sobre o Autor
+
+**Daniel Brandão**  
+Atuação em dados, finanças e gestão na construção civil.
+
+Experiência em:
+
+- Orçamento de obras
+- Power BI
+- SQL
+- Automação de processos
+- Planejamento financeiro
+
+---
+
+## 📬 Contato Profissional
+
+Caso tenha interesse em:
+
+- Utilizar este modelo
+- Desenvolver uma versão personalizada
+- Adaptar para sua empresa
+- Contratar projetos similares
+
+Entre em contato:
+
+📧 Email: (seu-email-aqui)  
+💼 LinkedIn: (seu-link-aqui)
+
+---
+
+## 📌 Observação
+
+Este projeto é apresentado exclusivamente para fins de demonstração técnica e portfólio.
+
+O uso comercial, redistribuição ou adaptação depende de autorização.
+
+---
+
+⭐ Se este projeto foi útil para conhecer meu trabalho, sinta-se à vontade para deixar uma estrela.
